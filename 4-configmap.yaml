@@ -1,0 +1,12 @@
+# configmap.yaml
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: apache-config
+data:
+  index.html: |
+    <html>
+    <body>
+    <h1>Hi from Saturday!</h1>
+    </body>
+    </html>
